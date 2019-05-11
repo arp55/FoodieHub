@@ -91,7 +91,7 @@ class List extends Component {
                               {item.restaurant.user_rating.aggregate_rating}
                             </span>
                             <img
-                              src="http://www.downloadclipart.net/svg/41208-brown-star-star-vector.svg"
+                              src="http://www.downloadclipart.net/thumb/41208-brown-star-star-icon.png"
                               className="ratingImg"
                             />
                           </div>
