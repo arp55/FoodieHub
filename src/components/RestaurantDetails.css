@@ -1,0 +1,98 @@
+header {
+  height: 5rem;
+  width: 100%;
+  border: 0px;
+  background-size: cover;
+  background-color: #c8c9d0;
+  margin-top: 0px;
+}
+
+.appName {
+  margin-left: 3rem;
+  font-weight: 1000;
+  font-style: oblique;
+  font-size: 2.7rem;
+  color: #a02020;
+}
+
+.spanCss {
+  border-radius: 0.4rem;
+  width: 2.3rem;
+  background-color: #ccbbbb;
+  float: right;
+  font-size: 1.4rem;
+  color: #21213a;
+}
+
+.restName1 {
+  margin-top: 1.3rem;
+  margin-left: 1rem;
+  background-color: #e6d9ea;
+  height: 4rem;
+  width: 750px;
+  padding: 10px 10px 10px;
+  color: #965454;
+  border-radius: 0.5rem;
+  font-size: 30px;
+  font-weight: 1000;
+}
+
+.restdet {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 750px;
+  height: 75%;
+  background-color: #e6d9ea;
+  border-radius: 0.5rem;
+  padding: 10px 10px 10px;
+}
+
+.restImg {
+  height: 11rem;
+  width: 20rem;
+  border-radius: 0.3rem;
+}
+
+.location {
+  margin-top: 1.4rem;
+  float: right;
+  text-align: center;
+  border: 0px solid;
+  width: 21rem;
+  font-size: 0.9rem;
+  color: #8c5959;
+  font-weight: 500;
+}
+
+.cuisine {
+  text-align: center;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.deli {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-left: 32rem;
+  color: #eca423;
+}
+
+.locationimg {
+  height: 1.3rem;
+  width: 1.2rem;
+}
+
+footer {
+  height: 5.8rem;
+  width: 100%;
+  border: 0px;
+  background-size: cover;
+  background-color: #c8c9d0;
+  margin-top: 4.5em;
+  font-size: 0.8em;
+}
+
+.load {
+  font-size: 2em;
+}
