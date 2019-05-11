@@ -57,7 +57,10 @@ class Details extends Component {
       return (
         <div>
           <header>
-            <a className="appName" href={`http://localhost:3000/`}>
+            <a
+              className="appName"
+              href={`https://shrouded-dawn-78140.herokuapp.com/`}
+            >
               FoodieHub
             </a>
           </header>
