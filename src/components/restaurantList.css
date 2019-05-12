@@ -9,7 +9,7 @@
 
 .content {
   height: 13.7rem;
-  width: 46.875rem;
+  width: 442%;
   padding: 10px 10px 10px;
   border-radius: 1.25rem;
 }
@@ -57,12 +57,12 @@ ul {
 .imgcss {
   border-radius: 10px;
   float: left;
-  height: 12.4rem;
-  width: 15rem;
+  height: 100%;
+  width: 34%;
 }
 
 .restName {
-  margin-top: 20px;
+  margin-top: 200%;
   font-size: 30px;
   font-weight: 1000;
   color: #965454;

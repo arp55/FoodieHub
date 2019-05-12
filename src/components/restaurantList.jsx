@@ -38,7 +38,6 @@ class List extends Component {
   }
   render() {
     var { error, isLoaded, res } = this.state;
-    console.log(res);
     if (error) {
       return <div className="load">Error: {error.message}</div>;
     } else if (!isLoaded) {
@@ -91,7 +90,7 @@ class List extends Component {
                               {item.restaurant.user_rating.aggregate_rating}
                             </span>
                             <img
-                              src="http://www.downloadclipart.net/svg/41208-brown-star-star-vector.svg"
+                              src={require("./brownstar.svg")}
                               className="ratingImg"
                             />
                           </div>

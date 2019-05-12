@@ -15,7 +15,6 @@ class Details extends Component {
     var dest = this.props.location.pathname.substr(
       this.props.location.pathname.lastIndexOf("/") + 1
     );
-    console.log(dest);
     const config = {
       headers: { "user-key": "115942f89738b7b0ac654ef3d7042845" }
     };
@@ -41,9 +40,7 @@ class Details extends Component {
   }
   render() {
     var { error, isLoaded, result } = this.state;
-    console.log(result);
     var delivery = result.has_online_delivery;
-    console.log(delivery);
     if (delivery == 0) {
       var resu = "DELIVERY UNAVAILABLE";
     } else {
