@@ -41,7 +41,7 @@ class List extends Component {
     if (error) {
       return <div className="load">Error: {error.message}</div>;
     } else if (!isLoaded) {
-      return <div className="load">Loading the page...</div>;
+      return <div className="load">Loading contents...</div>;
     } else {
       return (
         <ul className="list">
