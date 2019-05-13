@@ -6,15 +6,15 @@ class Layout extends Component {
   render() {
     return (
       <div>
-        <header>
-          <a className="appName" href={`./`}>
-            FoodieHub
-          </a>
-        </header>
-        <main className="container">
+        <main className="container-flex">
+          <header>
+            <a className="appName" href={`./`} style={{ width: "100%" }}>
+              FoodieHub
+            </a>
+          </header>
           <List />
+          <footer>FoodieHub © 2019</footer>
         </main>
-        <footer>FoodieHub © 2019</footer>
       </div>
     );
   }

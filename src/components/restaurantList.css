@@ -8,8 +8,8 @@
 }
 
 .content {
-  height: 13.7rem;
-  width: 442%;
+  height: 11.7rem;
+  width: 32.875em;
   padding: 10px 10px 10px;
   border-radius: 1.25rem;
 }
@@ -57,19 +57,614 @@ ul {
 .imgcss {
   border-radius: 10px;
   float: left;
-  height: 100%;
-  width: 34%;
+  height: 10.4rem;
+  width: 13rem;
 }
 
 .restName {
-  margin-top: 200%;
-  font-size: 30px;
+  margin-top: 20px;
+  font-size: 1.4em;
   font-weight: 1000;
   color: #965454;
 }
 
 .cuisinesList {
-  font-size: 17px;
+  font-size: 15px;
+  color: #bba29b;
+  font-weight: 700;
+  font-style: oblique;
+}
+
+.costCss {
+  font-size: 13px;
+  font-weight: 400;
+  color: #756666;
+}
+
+.resDisplay {
+  text-align: center;
+}
+
+.ratingImg {
+  height: 1rem;
+}
+
+.ratingCss {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #756666;
+}
+
+div.clickable {
+  /* Containing div must have a position value */
+  position: relative;
+}
+
+div.clickable a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-decoration: none; /* Makes sure the link   doesn't get underlined */
+  z-index: 10; /* raises anchor tag above everything else in div */
+  background-color: white; /*workaround to make clickable in IE */
+  opacity: 0; /*workaround to make clickable in IE */
+  filter: alpha(opacity=1); /*workaround to make clickable in IE */
+}
+
+.list {
+  margin-top: 1rem;
+}
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+[class*="col-"] {
+  margin-bottom: 30px;
+}
+
+.content {
+  height: 11.7rem;
+  width: 32.875em;
+  padding: 10px 10px 10px;
+  border-radius: 1.25rem;
+}
+
+.colour-1 {
+  background: #dbdccc;
+  color: #352c2c;
+  font-weight: bold;
+}
+
+.colour-2 {
+  background: #3c6e71;
+}
+
+.colour-3 {
+  background: #70ae6e;
+}
+
+.colour-4 {
+  background: #82204a;
+}
+
+.colour-5 {
+  background: #558c8c;
+}
+
+.colour-6 {
+  background: #917c78;
+}
+
+body {
+  padding: 20px 0;
+  font-family: Roboto, sans-serif;
+}
+
+.content h3 {
+  margin-top: 0px;
+  font-weight: 300;
+}
+
+ul {
+  list-style: none;
+}
+
+.imgcss {
+  border-radius: 10px;
+  float: left;
+  height: 10.4rem;
+  width: 13rem;
+}
+
+.restName {
+  margin-top: 20px;
+  font-size: 1.4em;
+  font-weight: 1000;
+  color: #965454;
+}
+
+.cuisinesList {
+  font-size: 15px;
+  color: #bba29b;
+  font-weight: 700;
+  font-style: oblique;
+}
+
+.costCss {
+  font-size: 13px;
+  font-weight: 400;
+  color: #756666;
+}
+
+.resDisplay {
+  text-align: center;
+}
+
+.ratingImg {
+  height: 1rem;
+}
+
+.ratingCss {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #756666;
+}
+
+div.clickable {
+  /* Containing div must have a position value */
+  position: relative;
+}
+
+div.clickable a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-decoration: none; /* Makes sure the link   doesn't get underlined */
+  z-index: 10; /* raises anchor tag above everything else in div */
+  background-color: white; /*workaround to make clickable in IE */
+  opacity: 0; /*workaround to make clickable in IE */
+  filter: alpha(opacity=1); /*workaround to make clickable in IE */
+}
+
+.list {
+  margin-top: 1rem;
+}
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+[class*="col-"] {
+  margin-bottom: 30px;
+}
+
+.content {
+  height: 11.7rem;
+  width: 32.875em;
+  padding: 10px 10px 10px;
+  border-radius: 1.25rem;
+}
+
+.colour-1 {
+  background: #dbdccc;
+  color: #352c2c;
+  font-weight: bold;
+}
+
+.colour-2 {
+  background: #3c6e71;
+}
+
+.colour-3 {
+  background: #70ae6e;
+}
+
+.colour-4 {
+  background: #82204a;
+}
+
+.colour-5 {
+  background: #558c8c;
+}
+
+.colour-6 {
+  background: #917c78;
+}
+
+body {
+  padding: 20px 0;
+  font-family: Roboto, sans-serif;
+}
+
+.content h3 {
+  margin-top: 0px;
+  font-weight: 300;
+}
+
+ul {
+  list-style: none;
+}
+
+.imgcss {
+  border-radius: 10px;
+  float: left;
+  height: 10.4rem;
+  width: 13rem;
+}
+
+.restName {
+  margin-top: 20px;
+  font-size: 1.4em;
+  font-weight: 1000;
+  color: #965454;
+}
+
+.cuisinesList {
+  font-size: 15px;
+  color: #bba29b;
+  font-weight: 700;
+  font-style: oblique;
+}
+
+.costCss {
+  font-size: 13px;
+  font-weight: 400;
+  color: #756666;
+}
+
+.resDisplay {
+  text-align: center;
+}
+
+.ratingImg {
+  height: 1rem;
+}
+
+.ratingCss {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #756666;
+}
+
+div.clickable {
+  /* Containing div must have a position value */
+  position: relative;
+}
+
+div.clickable a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-decoration: none; /* Makes sure the link   doesn't get underlined */
+  z-index: 10; /* raises anchor tag above everything else in div */
+  background-color: white; /*workaround to make clickable in IE */
+  opacity: 0; /*workaround to make clickable in IE */
+  filter: alpha(opacity=1); /*workaround to make clickable in IE */
+}
+
+.list {
+  margin-top: 1rem;
+}
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+[class*="col-"] {
+  margin-bottom: 30px;
+}
+
+.content {
+  height: 11.7rem;
+  width: 32.875em;
+  padding: 10px 10px 10px;
+  border-radius: 1.25rem;
+}
+
+.colour-1 {
+  background: #dbdccc;
+  color: #352c2c;
+  font-weight: bold;
+}
+
+.colour-2 {
+  background: #3c6e71;
+}
+
+.colour-3 {
+  background: #70ae6e;
+}
+
+.colour-4 {
+  background: #82204a;
+}
+
+.colour-5 {
+  background: #558c8c;
+}
+
+.colour-6 {
+  background: #917c78;
+}
+
+body {
+  padding: 20px 0;
+  font-family: Roboto, sans-serif;
+}
+
+.content h3 {
+  margin-top: 0px;
+  font-weight: 300;
+}
+
+ul {
+  list-style: none;
+}
+
+.imgcss {
+  border-radius: 10px;
+  float: left;
+  height: 10.4rem;
+  width: 13rem;
+}
+
+.restName {
+  margin-top: 20px;
+  font-size: 1.4em;
+  font-weight: 1000;
+  color: #965454;
+}
+
+.cuisinesList {
+  font-size: 15px;
+  color: #bba29b;
+  font-weight: 700;
+  font-style: oblique;
+}
+
+.costCss {
+  font-size: 13px;
+  font-weight: 400;
+  color: #756666;
+}
+
+.resDisplay {
+  text-align: center;
+}
+
+.ratingImg {
+  height: 1rem;
+}
+
+.ratingCss {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #756666;
+}
+
+div.clickable {
+  /* Containing div must have a position value */
+  position: relative;
+}
+
+div.clickable a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-decoration: none; /* Makes sure the link   doesn't get underlined */
+  z-index: 10; /* raises anchor tag above everything else in div */
+  background-color: white; /*workaround to make clickable in IE */
+  opacity: 0; /*workaround to make clickable in IE */
+  filter: alpha(opacity=1); /*workaround to make clickable in IE */
+}
+
+.list {
+  margin-top: 1rem;
+}
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+[class*="col-"] {
+  margin-bottom: 30px;
+}
+
+.content {
+  height: 11.7rem;
+  width: 32.875em;
+  padding: 10px 10px 10px;
+  border-radius: 1.25rem;
+}
+
+.colour-1 {
+  background: #dbdccc;
+  color: #352c2c;
+  font-weight: bold;
+}
+
+.colour-2 {
+  background: #3c6e71;
+}
+
+.colour-3 {
+  background: #70ae6e;
+}
+
+.colour-4 {
+  background: #82204a;
+}
+
+.colour-5 {
+  background: #558c8c;
+}
+
+.colour-6 {
+  background: #917c78;
+}
+
+body {
+  padding: 20px 0;
+  font-family: Roboto, sans-serif;
+}
+
+.content h3 {
+  margin-top: 0px;
+  font-weight: 300;
+}
+
+ul {
+  list-style: none;
+}
+
+.imgcss {
+  border-radius: 10px;
+  float: left;
+  height: 10.4rem;
+  width: 13rem;
+}
+
+.restName {
+  margin-top: 20px;
+  font-size: 1.4em;
+  font-weight: 1000;
+  color: #965454;
+}
+
+.cuisinesList {
+  font-size: 15px;
+  color: #bba29b;
+  font-weight: 700;
+  font-style: oblique;
+}
+
+.costCss {
+  font-size: 13px;
+  font-weight: 400;
+  color: #756666;
+}
+
+.resDisplay {
+  text-align: center;
+}
+
+.ratingImg {
+  height: 1rem;
+}
+
+.ratingCss {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #756666;
+}
+
+div.clickable {
+  /* Containing div must have a position value */
+  position: relative;
+}
+
+div.clickable a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-decoration: none; /* Makes sure the link   doesn't get underlined */
+  z-index: 10; /* raises anchor tag above everything else in div */
+  background-color: white; /*workaround to make clickable in IE */
+  opacity: 0; /*workaround to make clickable in IE */
+  filter: alpha(opacity=1); /*workaround to make clickable in IE */
+}
+
+.list {
+  margin-top: 1rem;
+}
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+[class*="col-"] {
+  margin-bottom: 30px;
+}
+
+.content {
+  height: 11.7rem;
+  width: 32.875em;
+  padding: 10px 10px 10px;
+  border-radius: 1.25rem;
+}
+
+.colour-1 {
+  background: #dbdccc;
+  color: #352c2c;
+  font-weight: bold;
+}
+
+.colour-2 {
+  background: #3c6e71;
+}
+
+.colour-3 {
+  background: #70ae6e;
+}
+
+.colour-4 {
+  background: #82204a;
+}
+
+.colour-5 {
+  background: #558c8c;
+}
+
+.colour-6 {
+  background: #917c78;
+}
+
+body {
+  padding: 20px 0;
+  font-family: Roboto, sans-serif;
+}
+
+.content h3 {
+  margin-top: 0px;
+  font-weight: 300;
+}
+
+ul {
+  list-style: none;
+}
+
+.imgcss {
+  border-radius: 10px;
+  float: left;
+  height: 10.4rem;
+  width: 13rem;
+}
+
+.restName {
+  margin-top: 20px;
+  font-size: 1.4em;
+  font-weight: 1000;
+  color: #965454;
+}
+
+.cuisinesList {
+  font-size: 15px;
   color: #bba29b;
   font-weight: 700;
   font-style: oblique;
